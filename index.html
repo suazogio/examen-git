@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Ropa</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
+        header { background: #222; color: #fff; padding: 1em; text-align: center; }
+        .productos { display: flex; flex-wrap: wrap; justify-content: center; gap: 2em; margin: 2em; }
+        .producto { background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #ccc; width: 220px; padding: 1em; text-align: center; }
+        .producto img { width: 180px; height: 220px; object-fit: cover; border-radius: 6px; }
+        .producto h3 { margin: 0.5em 0; }
+        .producto p { color: #555; }
+        .producto .precio { font-weight: bold; color: #007b3a; margin: 0.5em 0; }
+        .producto button { background: #007b3a; color: #fff; border: none; padding: 0.5em 1em; border-radius: 4px; cursor: pointer; }
+        .producto button:hover { background: #005a27; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tienda de Ropa "Moda Urbana"</h1>
+        <p>¡Descubre las últimas tendencias!</p>
+    </header>
+    <section class="productos">
+        <div class="producto">
+            <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=400&q=80" alt="Camisa Casual">
+            <h3>Camisa Casual</h3>
+            <p>Camisa de algodón, ideal para el día a día.</p>
+            <div class="precio">$350 MXN</div>
+            <button>Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=400&q=80" alt="Vestido Elegante">
+            <h3>Vestido Elegante</h3>
+            <p>Perfecto para eventos especiales y fiestas.</p>
+            <div class="precio">$650 MXN</div>
+            <button>Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80" alt="Sudadera Deportiva">
+            <h3>Sudadera Deportiva</h3>
+            <p>Comodidad y estilo para tu rutina diaria.</p>
+            <div class="precio">$420 MXN</div>
+            <button>Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=400&q=80" alt="Pantalón Jeans">
+            <h3>Pantalón Jeans</h3>
+            <p>Clásico y versátil, nunca pasa de moda.</p>
+            <div class="precio">$500 MXN</div>
+            <button>Agregar al carrito</button>
+        </div>
+    </section>
+</body>
+</html>
